@@ -1,1 +1,7 @@
-// next.config.js content
+// Next.js configuration
+module.exports = {
+  reactStrictMode: true,
+  images: {
+    domains: ['example.com'],
+  },
+};
