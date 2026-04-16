@@ -1,1 +1,26 @@
-{\n  "name": "clothing-store",\n  "version": "1.0.0",\n  "private": true,\n  "scripts": {\n    "dev": "next dev",\n    "build": "next build",\n    "start": "next start"\n  },\n  "dependencies": {\n    "next": "latest",\n    "react": "latest",\n    "react-dom": "latest",\n    "three": "latest",\n    "gsap": "latest"\n  }\n}
+{
+  "name": "clothing-store",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "gsap": "3.12.5",
+    "next": "15.5.15",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "three": "0.164.1"
+  },
+  "devDependencies": {
+    "@types/node": "20.14.15",
+    "@types/react": "18.2.66",
+    "@types/three": "0.164.0",
+    "autoprefixer": "10.4.20",
+    "postcss": "8.4.41",
+    "tailwindcss": "3.4.13",
+    "typescript": "5.4.5"
+  }
+}
