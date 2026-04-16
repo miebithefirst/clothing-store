@@ -37,9 +37,6 @@ export default function ThreeScene() {
     scene.add(meshA, meshB, ambient, point);
 
     const onResize = () => {
-      if (!container) {
-        return;
-      }
       camera.aspect = container.clientWidth / container.clientHeight;
       camera.updateProjectionMatrix();
       renderer.setSize(container.clientWidth, container.clientHeight);
