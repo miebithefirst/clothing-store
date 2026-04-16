@@ -1,7 +1,6 @@
-// Next.js configuration
-module.exports = {
-  reactStrictMode: true,
-  images: {
-    domains: ['example.com'],
-  },
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  reactStrictMode: true
 };
+
+module.exports = nextConfig;
