@@ -1,0 +1,1 @@
+// components/Hero.tsx content
